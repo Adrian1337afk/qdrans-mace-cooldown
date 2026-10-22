@@ -1,0 +1,17 @@
+name: qdrans-mace-cooldown
+version: 1.0.0
+main: qdran.macecooldown.MaceCooldownPlugin
+api-version: '26.3'
+author: qdran
+description: Puts the mace on an item cooldown after every hit, like an ender pearl.
+
+commands:
+  qmcd:
+    description: Set the mace cooldown in seconds (0 disables it)
+    usage: /qmcd <seconds>
+    permission: qmcd.admin
+
+permissions:
+  qmcd.admin:
+    description: Use /qmcd
+    default: op

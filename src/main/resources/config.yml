@@ -1,0 +1,2 @@
+# Cooldown after every mace hit, in seconds. 0 disables it. Change in-game with /qmcd <seconds>.
+cooldown-seconds: 5.0
